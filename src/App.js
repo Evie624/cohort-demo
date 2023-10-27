@@ -1,10 +1,11 @@
 // at the top of our file, we are going to be importing open source packages, and other files. 
 // for this file, we want to add in CSS, just like we would with a normal HTML File.
 import './appStyles.css';
-
 import { ThemeProvider, Typography } from '@mui/material';
 import theme from './config/theme';
 import Form from './components/form';
+import Table from './components/table';
+import Sidebar from './components/sidebar';
 
 // Look at this! A function! We know functions.
 
@@ -16,7 +17,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <Typography>Hello Web Cohort! This is an unstyled page with just some text inside</Typography>
-        <Form />
       </div>
     </ThemeProvider>
   );
