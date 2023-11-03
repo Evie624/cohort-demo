@@ -68,11 +68,11 @@ export default function Challenge() {
               color="text.secondary"
               paragraph
             >
-              Take this template, and reconfigure it to dynamically render media
+              Take this template, and reconfigure it to render media
               cards based on the SKUName found in the data! Challenges: 1.
               Render a unique media card for each SKUName 2. Populate each media
               card with the Brand and SKUGUID 4. Add a new MUI icon into your
-              media card 5. Still have time? Get creative!
+              media card 5. Still have time? Get creative with how we could display additional buydown data!
             </Typography>
           </Container>
         </Box>
