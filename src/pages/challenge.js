@@ -13,6 +13,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import { ThemeProvider } from "@mui/material/styles";
+import data from "./data/tst.json";
 
 function Copyright() {
   return (
