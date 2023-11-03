@@ -6,7 +6,6 @@ import theme from './config/theme';
 import Form from './components/form';
 import Table from './components/table';
 import Sidebar from './components/sidebar';
-
 // Look at this! A function! We know functions.
 
 // This function actually returns HTML, which React handles perfectly. We can do cool things within 
